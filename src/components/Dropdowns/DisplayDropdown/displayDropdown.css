@@ -1,0 +1,60 @@
+/* Adjusted and refined CSS */
+.display-dropdown {
+    position: relative;
+}
+
+.display-dropdown .dropdown-label-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem; /* Slightly increased gap */
+    border-radius: 0.3rem; /* Adjusted border radius */
+    padding: 0.4rem 0.6rem; /* Slightly increased padding */
+    box-shadow: 0 0 0.3rem rgba(18, 18, 18, 0.4); /* Adjusted box-shadow */
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.display-dropdown .dropdown-label {
+    color: #2d2f35; /* Adjusted color */
+    font-weight: bold;
+}
+
+.display-dropdown .dropdown-content-container {
+    position: absolute;
+    top: 2.5rem;
+    padding: 1.5rem 1.8rem; /* Adjusted padding */
+    border-radius: 1.2rem; /* Slightly increased border radius */
+    background-color: #f8f9fb;
+    box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.1); /* Adjusted box-shadow */
+    width: 30%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem; /* Slightly increased gap */
+}
+
+.display-dropdown .dropdown-content-container:not(.visible) {
+    display: none;
+}
+
+.display-dropdown .dropdown-content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-dropdown .dropdown-content-label {
+    color: #6c6d6e; /* Adjusted color */
+    font-weight: bold;
+}
+
+.display-dropdown select {
+    background-color: #fafffc; /* Adjusted background color */
+    outline: none;
+    border: 1px solid #d8d8d8;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem; /* Slightly increased padding */
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+/* Adjusted and refined CSS */
+.card {
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 0 0.4rem rgba(18, 18, 18, 0.2);
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif; /* Changed font */
+}
+
+.card .ticket-id {
+    color: #6b6f76;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.card .title {
+    color: #282a2f;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.card .middle-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+}
+
+.card .bottom-container {
+    gap: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0.6rem;
+}
+
+.card .tag-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #edeff2;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.6rem;
+}
+
+.card .tag-icon {
+    background-color: #bec2c8;
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+}
+
+.card .tag-text {
+    color: #6b6f76;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.card .top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .more-icon-container {
+    display: grid;
+    place-items: center;
+    border: 1px solid #edeff2;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.6rem;
+}
+
+.card svg {
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .card {
+        min-width: auto;
+    }
+}
